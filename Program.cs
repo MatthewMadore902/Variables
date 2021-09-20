@@ -35,9 +35,36 @@ namespace variables
 			Console.WriteLine(name);
 			name = "NoName";
 			Console.WriteLine(name);
+			Console.WriteLine();
 
 
-			Console.ReadKey(true); // used for seeing key presses before closing 
+
+
+			//--------------Float------------------
+
+			// Float = Floating Point 
+			float speed;
+			float distanceTravelled;
+			speed = 100.0f;
+			distanceTravelled = 0.0f;
+			Console.WriteLine("Speeddometer: " + speed);
+			Console.WriteLine("odometer: " + distanceTravelled);
+
+			//---------------Int vs Float--------------------
+			int intTest;
+			float floatTest2;
+			float floatTest3; 
+
+			intTest = 10 / 3;
+			floatTest2 = 10 / 3;
+			floatTest3 = 10.0f / 3.0f;
+			Console.WriteLine(intTest);
+			Console.WriteLine(floatTest2);
+			Console.WriteLine(floatTest3);
+
+
+			Console.ReadKey(true); // used for seeing key presses before closing
+
 
 		}
 	}
