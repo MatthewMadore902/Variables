@@ -63,6 +63,31 @@ namespace variables
 			Console.WriteLine(floatTest3);
 
 
+			//-----------Formulas ( order of execution )-------------------
+
+
+			//order of execution 
+			int lives;
+			lives = 3;
+			lives = 5;
+			lives = 10;
+			Console.WriteLine("Lives: " + lives);
+			lives = lives - 1;
+			Console.WriteLine("Lives: " + lives); // usfull debugging tools
+
+			//----------formula--------------
+
+			//int score; //already declared
+			int enemyPoints;
+			enemyPoints = 100; // you want to save/store "magic number" into varables
+
+			
+			score = 0;
+			Console.WriteLine("score: " + score);
+			score = score + enemyPoints; // formula
+			Console.WriteLine("score: " + score);
+
+
 			Console.ReadKey(true); // used for seeing key presses before closing
 
 
